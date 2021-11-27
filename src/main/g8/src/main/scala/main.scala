@@ -6,13 +6,18 @@ import PApplet._
 
 object Main extends PApplet {
   def main(args:Array[String]): Unit = {
-    PApplet.main("$sketch$.Main")
+    PApplet.main("$sketch$.Main", args)
   }
 }
 
 class Main extends PApplet {
 
   override def setup(): Unit = {
+    if (args != null) {
+      // Process any arguments here
+      println(args.mkString(" "))
+    }
+
     background(100)
   }
 
