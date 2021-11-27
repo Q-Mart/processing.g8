@@ -7,8 +7,9 @@ scalaVersion in ThisBuild := "2.12.2"
 classpathTypes ++= Set("jnilib")
 
 resolvers += MavenRepository("jogamp", "http://jogamp.org/deployment/maven")
+resolvers += MavenRepository("jitpack.io", "https://jitpack.io")
 
-libraryDependencies += "org.processing" % "core" % "3.3.7"
+libraryDependencies += "com.github.micycle1" % "processing-core-4" % "4.0.3"
 
 libraryDependencies += "org.typelevel" %% "spire" % "0.14.1"
 
