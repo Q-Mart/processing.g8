@@ -1,8 +1,8 @@
 name := "processing-scala-sketch"
 
-version := "1.0"
+version := "1.3.2"
 
-scalaVersion in ThisBuild := "2.12.2"
+scalaVersion in ThisBuild := "2.12.15"
 
 classpathTypes ++= Set("jnilib")
 
