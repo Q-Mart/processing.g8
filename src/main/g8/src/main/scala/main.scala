@@ -4,6 +4,8 @@ import processing.core._
 import PConstants._
 import PApplet._
 
+import qlib._
+
 import scala.util.Random
 
 object Main extends PApplet {
