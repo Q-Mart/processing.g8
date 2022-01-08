@@ -19,5 +19,7 @@ libraryDependencies += "org.jogamp.jogl" % "newt" % "2.3.2"
 
 libraryDependencies += "org.jogamp.gluegen" % "gluegen-rt" % "2.3.2"
 
+libraryDependencies += "com.github.Q-Mart" % "qlib" % "v1.0.0"
+
 fork in run := true
 
