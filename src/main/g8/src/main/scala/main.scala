@@ -27,6 +27,7 @@ class Main extends PApplet {
     }
 
     background(100)
+    Random.setSeed(random_seed)
   }
 
   override def settings(): Unit = {
