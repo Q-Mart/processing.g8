@@ -10,6 +10,7 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     jdk11
     scala
+    scalafmt
     sbt
   ];
 }
