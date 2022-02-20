@@ -27,11 +27,12 @@ class Main extends PApplet {
     }
 
     background(100)
-    Random.setSeed(random_seed)
   }
 
   override def settings(): Unit = {
     size(1024, 768)
+    Random.setSeed(random_seed)
+    noiseSeed(random_seed)
   }
 
   override def draw {
