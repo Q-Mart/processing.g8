@@ -19,6 +19,10 @@ class Main extends PApplet {
   var random_seed = System.currentTimeMillis() / 1000
 
   override def setup(): Unit = {
+    background(100)
+  }
+
+  override def settings(): Unit = {
     if (args != null) {
       // Process any arguments here
       args.length match {
@@ -26,10 +30,6 @@ class Main extends PApplet {
       }
     }
 
-    background(100)
-  }
-
-  override def settings(): Unit = {
     size(1024, 768)
     Random.setSeed(random_seed)
     noiseSeed(random_seed)
