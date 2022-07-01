@@ -39,5 +39,6 @@ class Main extends PApplet {
 
     val output_img_path = random_seed.toString+".tiff"
     save(output_img_path)
+    noLoop()
   }
 }

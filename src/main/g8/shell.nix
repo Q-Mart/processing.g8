@@ -12,5 +12,7 @@ pkgs.mkShell {
     scala
     scalafmt
     sbt
+    imagemagick
+    ffmpeg
   ];
 }
